@@ -1,0 +1,7 @@
+server:
+  port: 9600
+
+spring:
+  datasource:
+    jdbc-url: jdbc:sqlite:info.db
+    driver-class-name: org.sqlite.JDBC
